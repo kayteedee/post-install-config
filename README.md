@@ -26,7 +26,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 7. [Configure SLA](#configure-sla)
 8. [Configure Help Topics](#configure-help-topics)
 
-### Configure Roles
+### 1. Configure Roles
 - **Log in:** `Use the credentials you create during prereq & configuration`
 <p align="center"><img src="https://i.imgur.com/BLFaCHZ.png"/></p>
 
@@ -44,14 +44,14 @@ This tutorial outlines the post-install configuration of the open-source help de
 <p align="center"><img src="https://i.imgur.com/EfgwCIK.png"/></p>
 <p align="center"><img src="https://i.imgur.com/K6S8yYM.png"/></p>
 
-### Configure Departments
+### 2. Configure Departments
 - **Navigate to:** `Admin Panel -> Agents -> Departments`
 - **Create Department:** `System Administrators`
  <p align="center"><img src="https://i.imgur.com/fqROXPN.png"/></p>
  <p align="center"><img src="https://i.imgur.com/o1pQJcP.png"/></p>
  <p align="center"><img src="https://i.imgur.com/rxSbBLt.png"/></p>
 
-### Configure Teams
+### 3. Configure Teams
 - **Navigate to:** `Admin Panel -> Agents -> Teams`
 - **Create Teams:**
   - `Level I Support`
@@ -59,12 +59,12 @@ This tutorial outlines the post-install configuration of the open-source help de
 <p align="center"><img src="https://i.imgur.com/ZEhlAPW.png"/></p>
 <p align="center"><img src="https://i.imgur.com/ZNGsGH8.png"/></p>
 
-### Allow Anyone to Create Tickets
+### 4. Allow Anyone to Create Tickets
 - **Navigate to:** `Admin Panel -> Settings -> User Settings`
 - **Set Registration Required:** `Uncheck Require registration and login to create tickets`
 <p align="center"><img src="https://i.imgur.com/KVbj6Ha.png"/></p>
 
-### Configure Agents (Workers)
+### 5. Configure Agents (Workers)
 - **Navigate to:** `Admin Panel -> Agents -> Add New`
 - **Add Agents:** `Jane Doe`
 - - Name: `Jane Doe`
@@ -94,7 +94,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <p align="center"><img src="https://i.imgur.com/QRFU7Bc.png"/></p>
 
 
-### Configure Users (Customers)
+### 6. Configure Users (Customers)
 - **Navigate to:** `Agent Panel -> Users -> Add New`
 - **Add Users:** `Karen` & `Ken`
 - Email Address: `Karen@osticket.com`
@@ -103,10 +103,10 @@ This tutorial outlines the post-install configuration of the open-source help de
   <p align="center"><img src="https://i.imgur.com/7vN2ud9.png"/></p>
   <p align="center"><img src="https://i.imgur.com/2JUxLrt.png"/></p>
 
-**(Repeat the same steps for Ken)**
+:memo: **Note:** Repeat the same steps for Ken
 
 
-### Configure SLA
+### 7. Configure SLA
 - **Navigate to:** `Admin Panel -> Manage -> SLA`
 - **Create SLA Plans:**
   - `Sev-A (1 hour, 24/7)`
@@ -115,7 +115,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <p align="center"><img src="https://i.imgur.com/nXCMQsK.png"/></p> 
 <p align="center"><img src="https://i.imgur.com/rR1VM3s.png"/></p>
 
-### Configure Help Topics
+### 8. Configure Help Topics
 - **Navigate to:** `Admin Panel -> Manage -> Help Topics`
 - **Create Help Topics:**
   - `Business Critical Outage`
@@ -124,7 +124,7 @@ This tutorial outlines the post-install configuration of the open-source help de
   - `Password Reset`
   <p align="center"><img src="https://i.imgur.com/ZGr9N3z.png"/></p>
 
-### Notes
+### :bulb: **Tips:**
 - Ensure each setup step is correctly saved before moving to the next step.
 - Consult the osTicket [official documentation](https://docs.osticket.com/) for further details.
 
